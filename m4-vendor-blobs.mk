@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/m4/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/m4/proprietary/etc/agps_rm:system/etc/agps_rm \
-  vendor/htc/m4/proprietary/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd:system/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd \
+  vendor/htc/m4/proprietary/etc/firmware/BCM4334B0_002.001.013.1352.1353.hcd:system/etc/firmware/BCM4334B0_002.001.013.1352.1353.hcd \
   vendor/htc/m4/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
   vendor/htc/m4/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
   vendor/htc/m4/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
@@ -63,6 +63,14 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/m4/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/m4/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_s5k3h2yx_hdr.so:system/lib/libchromatix_s5k3h2yx_hdr.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_s5k6a1gx_default_video.so:system/lib/libchromatix_s5k6a1gx_default_video.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_s5k6a1gx_preview.so:system/lib/libchromatix_s5k6a1gx_preview.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_s5k6a1gx_zsl.so:system/lib/libchromatix_s5k6a1gx_zsl.so \
   vendor/htc/m4/proprietary/lib/libchromatix_s5k6a2ya_default_video.so:system/lib/libchromatix_s5k6a2ya_default_video.so \
   vendor/htc/m4/proprietary/lib/libchromatix_s5k6a2ya_hdr.so:system/lib/libchromatix_s5k6a2ya_hdr.so \
   vendor/htc/m4/proprietary/lib/libchromatix_s5k6a2ya_hfr.so:system/lib/libchromatix_s5k6a2ya_hfr.so \
@@ -77,6 +85,15 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/lib/libchromatix_ov4688_video_hdr.so:system/lib/libchromatix_ov4688_video_hdr.so \
   vendor/htc/m4/proprietary/lib/libchromatix_ov4688_zoe.so:system/lib/libchromatix_ov4688_zoe.so \
   vendor/htc/m4/proprietary/lib/libchromatix_ov4688_zsl.so:system/lib/libchromatix_ov4688_zsl.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_default_video.so:system/lib/libchromatix_vd6869_default_video.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_hdr.so:system/lib/libchromatix_vd6869_hdr.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_hfr.so:system/lib/libchromatix_vd6869_hfr.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_hfr_60fps.so:system/lib/libchromatix_vd6869_hfr_60fps.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_night.so:system/lib/libchromatix_vd6869_night.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_preview.so:system/lib/libchromatix_vd6869_preview.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_video_hdr.so:system/lib/libchromatix_vd6869_video_hdr.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_zoe.so:system/lib/libchromatix_vd6869_zoe.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_zsl.so:system/lib/libchromatix_vd6869_zsl.so \
   vendor/htc/m4/proprietary/lib/libgemini.so:system/lib/libgemini.so \
   vendor/htc/m4/proprietary/lib/libhtccamera_yushaniiproc.so:system/lib/libhtccamera_yushaniiproc.so \
   vendor/htc/m4/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
@@ -100,6 +117,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/m4/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
   vendor/htc/m4/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+  vendor/htc/m4/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
   vendor/htc/m4/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
   vendor/htc/m4/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/m4/proprietary/lib/libdiag.so:system/lib/libdiag.so \
